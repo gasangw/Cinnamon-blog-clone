@@ -9,37 +9,37 @@
     <title>Cinnamon-blog-clone</title>
 </head>
 <body>
-   <header class="lg:container lg:flex lg:flex-row lg:justify-between py-5">
-     <h2>CINNAMON</h2>
-     <nav class="lg:flex lg:flex-row gap-3">
-        <ul class="lg:flex lg:flex-row lg:gap-3">
-            <li><a href="#">Projects</a></li>            
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
+   <header class="lg:container lg:flex lg:flex-row lg:justify-between py-5 bg-background text-white lg:place-items-center bg-[url('/Images/bg.png')]">
+     <h2 class="font-sans text-2xl font-bold">CINNAMON</h2>
+     <nav class="lg:flex lg:flex-row gap-3 lg:w-[60%] lg:justify-evenly lg:place-items-center py-2">
+        <ul class="lg:flex lg:flex-row lg:gap-6 text-[1rem] font-sans font-medium">
+            <li class="lg:hover:text-blue-700"><a href="#">Projects</a></li>            
+            <li class="lg:hover:text-blue-700"><a href="#">Services</a></li>
+            <li class="lg:hover:text-blue-700"><a href="#">About Us</a></li>
+            <li class="lg:hover:text-blue-700"><a href="#">Careers</a></li>
+            <li class="lg:hover:text-blue-700"><a href="#">Blog</a></li>
         </ul>
-        <div class="border border-b">
-           <span class="material-symbols-outlined">play_arrow</span>
+        <div class="lg:border lg:border-white lg:py-2 lg:px-3 lg:rounded-full lg:hover:bg-blue-700 lg:hover:border-blue-700">
+           <span class="material-symbols-outlined text-2xl  lg:hover: text-white">play_arrow</span>
         </div>
         <div>
-          <button>
-             <a href="#">Contact Us</a>
+          <button class="lg:py-3 lg:px-14 lg:bg-blue-700 lg:hover:bg-white lg:hover:text-blue-700">
+             <a href="#" class="font-sans font-medium">Contact Us</a>
           </button>
         </div>
      </nav>
    </header>
    <main>
-    <section>
+    <section class="bg-[url('/Images/bg.png')] bg-background text-white pt-28 lg:container">
        <div>
-        <h1>Results focused design & development agency.</h1>
-        <p>Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>
+        <h1 class="font-sans font-[900] text-8xl mb-14">Results focused design & development agency.</h1>
+        <p class="text-[#CFCFCF] font-sans text-2xl font-[300] w-[56%]">Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>
+       </div>
+       <div class="flex flex-row justify-end">
+         <img src="Images/fastwebp.webp" alt="icon" class="bg-black rounded-full pb-2 lg:shadow-lg lg:shadow-[#5135FF] w-[12rem]"/>
        </div>
        <div>
-         <img src="Images/fastwebp.webp" alt="icon" />
-       </div>
-       <div>
-        <p>SEE OUR WORK</p>
+        <p class="font-sans">SEE OUR WORK</p>
         <span class="material-symbols-outlined">arrow_downward</span>
        </div>
     </section>
@@ -47,12 +47,12 @@
     <!-- second section -->
     <section>
       <!-- article 1 -->
-      <article>
-        <div>
+      <article class="container my-32">
+        <div class="bg-[#f1c40f]">
             <img src="Images/code.webp" alt="code-picture" />
-            <p>IOS DEVELOPMENT</p>
           </div>
           <div>
+            <p class="text-[#666666] font-sans py-5 font-medium">IOS DEVELOPMENT</p>
             <h2>Smart Build: Maximize your field survey</h2>
             <p>An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
           </div>

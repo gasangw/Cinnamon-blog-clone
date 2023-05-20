@@ -7,10 +7,13 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        lg: '7rem',
+        xl: '8rem',
+        '2xl': '9rem',
       },
+    },
+    fontFamily: {
+     'sans': 'Roboto, sans-serif',
     },
     extend: {
       colors: {
