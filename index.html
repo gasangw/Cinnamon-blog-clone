@@ -9,17 +9,17 @@
     <title>Cinnamon-blog-clone</title>
 </head>
 <body>
-   <header>
+   <header class="lg:container lg:flex lg:flex-row lg:justify-between py-5">
      <h2>CINNAMON</h2>
-     <nav>
-        <ul>
+     <nav class="lg:flex lg:flex-row gap-3">
+        <ul class="lg:flex lg:flex-row lg:gap-3">
             <li><a href="#">Projects</a></li>            
             <li><a href="#">Services</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
-        <div>
+        <div class="border border-b">
            <span class="material-symbols-outlined">play_arrow</span>
         </div>
         <div>
@@ -29,7 +29,66 @@
         </div>
      </nav>
    </header>
-   <main></main>
+   <main>
+    <section>
+       <div>
+        <h1>Results focused design & development agency.</h1>
+        <p>Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>
+       </div>
+       <div>
+         <img src="Images/fastwebp.webp" alt="icon" />
+       </div>
+       <div>
+        <p>SEE OUR WORK</p>
+        <span class="material-symbols-outlined">arrow_downward</span>
+       </div>
+    </section>
+
+    <!-- second section -->
+    <section>
+      <!-- article 1 -->
+      <article>
+        <div>
+            <img src="Images/code.webp" alt="code-picture" />
+            <p>IOS DEVELOPMENT</p>
+          </div>
+          <div>
+            <h2>Smart Build: Maximize your field survey</h2>
+            <p>An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
+          </div>
+      </article>
+
+      <!-- article 2 -->
+      <article>
+        <div>
+            <img src="Images/screenSizes.webp" alt="screen-sizes" />
+            <div>
+              <p>PRODUCT DESIGN</p>
+              <p>QUALITY ASSURANCE</p>
+            </div>
+          </div>
+          <div>
+            <h2>Corrily: Optimize prices to maximize revenue</h2>
+            <p>Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.</p>
+          </div>
+      </article>
+
+      <!-- article 3 -->
+      <article>
+        <div>
+            <img src="Images/finance.webp" alt="finance layouts" />
+            <div>
+              <p>PRODUCT DESIGN</p>
+              <p>WEB DEVELOPMENT</p>
+            </div>
+          </div>
+          <div>
+            <h2>Fiona: Engage & Decide</h2>
+            <p>Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
+          </div>
+      </article>
+    </section>
+   </main>
    <footer></footer>
 </body>
 </html>
