@@ -9,9 +9,9 @@
     <title>Cinnamon-blog-clone</title>
 </head>
 <body>
-   <header class="lg:container lg:flex lg:flex-row lg:justify-between py-5 bg-background text-white lg:place-items-center bg-[url('/Images/bg.png')]">
+   <header class="container lg:container flex flex-row justify-between py-5 bg-background text-white lg:place-items-center bg-[url('/Images/bg.png')]">
      <h2 class="font-sans text-2xl font-bold">CINNAMON</h2>
-     <nav class="lg:flex lg:flex-row gap-3 lg:w-[60%] lg:justify-evenly lg:place-items-center py-2">
+     <nav class="hidden lg:flex lg:flex-row gap-3 lg:w-[60%] lg:justify-evenly lg:place-items-center py-2">
         <ul class="lg:flex lg:flex-row lg:gap-6 text-[1rem] font-sans font-medium">
             <li class="lg:hover:text-blue-700"><a href="#">Projects</a></li>            
             <li class="lg:hover:text-blue-700"><a href="#">Services</a></li>
@@ -28,15 +28,16 @@
           </button>
         </div>
      </nav>
+     <span class="material-symbols-outlined text-3xl lg:hidden">notes</span>
    </header>
    <main>
-    <section class="bg-[url('/Images/bg.png')] bg-background text-white pt-28 lg:container">
+    <section class="bg-[url('/Images/bg.png')] bg-background text-white lg:pt-28 lg:container container">
        <div>
-        <h1 class="font-sans font-[900] text-8xl mb-14">Results focused design & development agency.</h1>
-        <p class="text-[#CFCFCF] font-sans text-2xl font-[300] w-[56%]">Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>
+        <h1 class="font-sans lg:font-[900] text-4xl font-extrabold lg:text-8xl lg:mb-14 mb-8 flex flex-row flex-wrap">Results focused design & development agency.</h1>
+        <p class="text-[#CFCFCF] font-sans text-lg lg:text-2xl font-[300] lg:w-[56%]">Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>
        </div>
-       <div class="flex flex-row justify-end">
-         <img src="Images/fastwebp.webp" alt="icon" class="bg-black rounded-full pb-2 lg:shadow-lg lg:shadow-[#5135FF] w-[12rem]"/>
+       <div class="flex flex-row lg:justify-end justify-center">
+         <img src="Images/fastwebp.webp" alt="icon" class="bg-black rounded-full pb-2 lg:shadow-lg shadow-[#5135FF] lg:w-[12rem] w-[6rem] my-4 shadow"/>
        </div>
        <div>
         <p class="font-sans flex-col-reverse">SEE OUR WORK</p>
@@ -47,101 +48,105 @@
     <!-- second section -->
     <section>
       <!-- article 1 -->
-      <article class="container my-32">
+      <article class="container mt-20 lg:my-32">
         <div class="bg-[#f1c40f]">
             <img src="Images/code.webp" alt="code-picture" />
           </div>
           <div>
             <p class="text-[#666666] font-sans py-5 font-medium">IOS DEVELOPMENT</p>
             <h2 class="text-[#222222] text-4xl font-bold lg:hover:text-blue-500">Smart Build: Maximize <br/> your field survey</h2>
-            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 w-[63%]">An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
+            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 lg:w-[63%]">An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
           </div>
       </article>
 
       <!-- article 2 -->
-      <article class="container my-32">
+      <article class="container mt-10 lg:my-32">
          <div class="bg-[#5ac8fa]">
             <img src="Images/screenSizes.webp" alt="screen-sizes" />
           </div>
           <div>
-            <div class="flex flex-row text-[#666666] gap-7 font-sans py-5 font-medium">
+            <div class="flex flex-col gap-3 lg:flex-row text-[#666666] lg:gap-7 font-sans py-5 font-medium">
                 <p>PRODUCT DESIGN</p>
                 <p>QUALITY ASSURANCE</p>
             </div>
             <h2 class="text-[#222222] text-4xl font-bold lg:hover:text-blue-500">Corrily: Optimize prices<br/> to maximize revenue</h2>
-            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 w-[63%]">Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.</p>
+            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 lg:w-[63%]">Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.</p>
           </div>
       </article>
 
       <!-- article 3 -->
-      <article class="container my-32">
+      <article class="container mt-10 lg:my-32">
         <div class="bg-[#5856d6]">
             <img src="Images/finance.webp" alt="finance layouts" />
           </div>
           <div>
-            <div class="flex flex-row text-[#666666] gap-7 font-sans py-5 font-medium">
+            <div class="flex flex-col gap-3 lg:flex-row text-[#666666] lg:gap-7 font-sans py-5 font-medium">
                 <p>PRODUCT DESIGN</p>
                 <p>WEB DEVELOPMENT</p>
               </div>
-            <h2 class="text-[#222222] text-4xl font-bold lg:hover:text-blue-500">Fiona: Engage & Decide</h2>
-            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 w-[63%]">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
+            <h2 class="text-[#222222] text-4xl font-bold lg:hover:text-blue-500">Fiona: Engage & <br class="lg:hidden"/> Decide</h2>
+            <p class="text-[#525252] text-[1.2rem] font-sans font-normal py-6 lg:w-[63%]">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
           </div>
       </article>
     </section>
 
     <!-- section 3 -->
-    <section class="bg-[url('/Images/bg.png')] bg-background text-white lg:container">
-      <div class="lg:grid lg:grid-cols-2 lg:py-36">
+    <section class="bg-[url('/Images/bg.png')] bg-background text-white container">
+      <div class="flex flex-col gap-6 py-20 lg:grid lg:grid-cols-2 lg:py-36">
         <div>
-          <h1 class="font-sans text-6xl font-extrabold ">Our services</h1>
+          <h1 class="font-sans text-5xl lg:text-6xl font-extrabold">Our services</h1>
         </div>
          <!-- part two -->
-        <div class="lg:grid lg:grid-cols-2 lg:gap-10">
-           <div class="lg:space-y-14">
-            <article>
+        <div class="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-10">
+           <div class="space-y-12 lg:space-y-14">
+            <article class="pt-6 lg:pt-0">
               <img src="Images/product.webp" alt="products-icon" />
-              <h3 class="lg:font-sans lg:text-[24px] lg:py-5 lg:font-bold">Product design</h3>
-              <p class="lg:font-sans lg:text-xl lg:text-[#CFCFCF] w-[85%]">Producing, prototyping and testing sketches, high-fidelity wireframes and the final UI is a process that results in intuitive and impactful design that’s easy on the eyes.</p>
+              <h3 class="font-sans text-[24px] py-5 font-bold">Product design</h3>
+              <p class="font-sans text-lg lg:text-xl text-[#CFCFCF] lg:w-[85%]">Producing, prototyping and testing sketches, high-fidelity wireframes and the final UI is a process that results in intuitive and impactful design that’s easy on the eyes.</p>
             </article>
 
             <article>
               <img src="Images/quality.webp" alt="quality-icon" />
-              <h3 class="lg:font-sans lg:text-[24px] lg:py-5 lg:font-bold">Quality assurance</h3>
-              <p class="lg:font-sans lg:text-xl lg:text-[#CFCFCF] w-[85%]">Our QA engineering team makes your product bug-free, bulletproof and performance-driven through both automatic and manual testing.</p>
+              <h3 class="font-sans text-[24px] py-5 font-bold">Quality assurance</h3>
+              <p class="font-sans text-lg lg:text-xl text-[#CFCFCF] lg:w-[85%]">Our QA engineering team makes your product bug-free, bulletproof and performance-driven through both automatic and manual testing.</p>
             </article>
-            <button class="lg:py-3 lg:px-14 lg:bg-blue-700 lg:hover:bg-white lg:hover:text-blue-700 font-sans font-medium">See Our Services</button>
+            <button class="py-3 px-14 bg-blue-700 hover:bg-white hover:text-blue-700 font-sans font-medium hidden lg:block">See Our Services</button>
            </div>
-           <div class="lg:space-y-14">
-            <article>
+           <div class="space-y-10 lg:space-y-14">
+            <article class="pt-6 lg:pt-0">
               <img src="Images/dev.webp" alt="development-icon" />
-              <h3 class="lg:font-sans lg:text-[24px] lg:py-5 lg:font-bold">Development</h3>
-              <p class="lg:font-sans lg:text-xl lg:text-[#CFCFCF] w-[85%]">By selecting the befitting tech stack and architecture for the deliverable in question, we build out the product until it's a fully-fledged digital solution.</p>
+              <h3 class="font-sans text-[24px] py-5 font-bold">Development</h3>
+              <p class="font-sans text-lg lg:text-xl text-[#CFCFCF] lg:w-[85%]">By selecting the befitting tech stack and architecture for the deliverable in question, we build out the product until it's a fully-fledged digital solution.</p>
             </article>
             <article>
               <img src="Images/growth.webp" alt="grwoth-icon" />
-              <h3 class="lg:font-sans lg:text-[24px] lg:py-5 lg:font-bold">Marketing & growth</h3>
-              <p class="lg:font-sans lg:text-xl lg:text-[#CFCFCF] w-[85%]">By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people.</p>
+              <h3 class="font-sans text-[24px] py-5 font-bold">Marketing & growth</h3>
+              <p class="font-sans text-lg lg:text-xl text-[#CFCFCF] lg:w-[85%]">By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people.</p>
             </article>
+            <button class="py-3 px-14 bg-blue-700 hover:bg-white hover:text-blue-700 font-sans font-medium lg:hidden">See Our Services</button>
            </div>
         </div>
       </div>
     </section>
 
     <!-- section 4 -->
-    <section class="bg-[#F6F6F6] lg:flex lg:flex-row lg:py-40 lg:relative">
-      <div class="lg:container">
+    <section class="bg-[#F6F6F6] flex flex-col py-24 lg:flex-row lg:py-40 lg:relative">
+      <div class="container">
         <div class="lg:grid lg:grid-cols-2">
           <div class="lg:w-[50%]">
-            <h3 class="lg:font-sans lg:font-extrabold text-6xl lg:text-[#222222]">Agile team on demand</h3>
+            <h3 class="font-sans font-bold text-4xl lg:font-extrabold lg:text-6xl text-[#222222]">Agile<br class="lg:hidden"/> team<br class="lg:hidden"/> on <br class="lg:hidden"/>demand</h3>
           </div>
-          <div class="lg:w-[63%] text-[#525252] font-sans text-xl">
+          <div class="py-8 lg:hidden">
+            <img src="Images/people.webp" alt="people with a laptop" />
+          </div>
+          <div class="lg:w-[63%] text-[#525252] font-sans text-xl py-6 lg:py-0">
             <p>By hiring and managing talented people with skills specific to your project, we build you a team that’s accomplished, agile and scalable in both directions.</p>
             <button class="lg:py-3 lg:px-14 lg:bg-blue-700 lg:hover:bg-white lg:hover:text-blue-700 lg:font-sans lg:font-medium lg:text-white lg:my-5">See How It Works</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="lg:absolute lg:bottom-0 lg:right-0">
+    <div class="hidden lg:block lg:absolute lg:bottom-0 lg:right-0">
       <img src="Images/people.webp" alt="people with a laptop" />
     </div>
     </section>
