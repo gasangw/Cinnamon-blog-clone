@@ -1,0 +1,26 @@
+{
+  "name": "cinnamon-blog-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasangw/Cinnamon-blog-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gasangw/Cinnamon-blog-clone/issues"
+  },
+  "homepage": "https://github.com/gasangw/Cinnamon-blog-clone#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.8"
+  }
+}
