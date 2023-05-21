@@ -158,46 +158,54 @@
    <footer class="bg-[url('/Images/bg.png')] bg-background text-white">
      <div class="container flex flex-col gap-3 lg:grid lg:grid-cols-3 lg:py-40">
         <div>
-          <h2 class="font-sans text-4xl font-bold py-8 ">CINNAMON</h2>
-          <h5 class="font-sans text-xl pb-3">Home</h5>
-          <ul class="space-y-3 text-[#CFCFCF]">
-            <li><a href="">Projects</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Blog</a></li>
-          </ul>
-          <p class="lg:pt-32 underline">hello@cinnamon.agency</p>
+          <h2 class="font-sans text-4xl font-bold lg:py-8 pt-8 lg:pt-0">CINNAMON</h2>
+          <h2 class="font-sans text-2xl font-medium py-8 lg:hidden block">All software,<br/> zero bullshit.</h2>
+          <h5 class="font-sans text-xl pb-3 hidden lg:block">Home</h5>
+            <div class="grid grid-cols-2 lg:grid-cols-1 lg:gap-3">
+              <ul class="space-y-3 text-[#CFCFCF]">
+                <li class="lg:hidden block"><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Services</a></li>
+              </ul>
+
+              <ul class="space-y-3 text-[#CFCFCF]">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </div>
+          <p class="lg:pt-32 underline hidden lg:block">hello@cinnamon.agency</p>
         </div>
         <div class="lg:col-span-2">
-          <h2 class="font-sans text-4xl font-bold lg:pb-8">All software, zero bullshit.</h2>
-          <div class=" flex flex-col gap-4 lg:grid lg:grid-cols-3 pt-8">
-             <div class="space-y-3">
+          <h2 class="font-sans text-4xl font-bold lg:pb-8 hidden lg:block">All software, zero bullshit.</h2>
+          <div class="grid-cols-2 gap-10 lg:gap-4 grid lg:grid-cols-3 pt-8">
+             <div class="lg:space-y-3">
               <h3 class="font-sans text-[#F6F6F6] text-lg font-bold">Zagreb</h3>
-              <p class="text-[#cfcfcf] font-sans text-[14px]">Slavonska avenija 6,10000, Zagreb, Croatia          
+              <p class="text-[#cfcfcf] font-sans text-[14px] lg:w-[60%]">Slavonska avenija 6,10000, Zagreb, Croatia          
                 +385 95 382 9188</p>
              </div>
              <div class="space-y-3">
               <h3 class="font-sans text-[#F6F6F6] text-lg font-bold">New York</h3>
-              <p class="text-[#cfcfcf] font-sans text-[14px]">500 7th Ave, New York,
+              <p class="text-[#cfcfcf] font-sans text-[14px] lg:w-[60%]">500 7th Ave, New York,
                 NY 10018, United States</p>
              </div>
              <div class="space-y-3">
               <h3 class="font-sans text-[#F6F6F6] text-lg font-bold">Belgrade</h3>
-              <p class="text-[#cfcfcf] font-sans text-[14px]">Požeška 58
+              <p class="text-[#cfcfcf] font-sans text-[14px] lg:w-[60%]">Požeška 58
                 11000, Belgrade, Serbia</p>
              </div>
           </div>
-          <div class="lg:flex lg:flex-row lg:justify-between">
-            <div>
-              <h4>Our newsletter</h4>
-              <input type="email" placeholder="Your E-mail" />
-              <button type="submit">Subscribe</button>
+          <div class="flex flex-col py-20 lg:flex-row lg:justify-between lg:pt-28">
+            <div class="lg:flex lg:flex-col lg:gap-5">
+              <h4 class="font-sans text-xl text-[#F6F6F6] font-medium">Our newsletter</h4>
+              <input type="email" placeholder="Your E-mail" class="bg-transparent border-b border-white py-4 lg:py-3 w-[100%]" />
+              <button type="submit" class="py-3 w-[100%] my-5 bg-blue-700 hover:bg-white hover:text-blue-700 font-sans font-medium outline-none">Subscribe</button>
             </div>
-            <div>
-              <img src="Images/pangeasvg.svg" alt="panda-icon" />
-              <img src="Images/clutch.webp" alt="clutch-icon" />
+            <div class="pt-14 lg:pt-0">
+              <img src="Images/pangeasvg.svg" alt="panda-icon" class="w-[14rem]" />
+              <img src="Images/clutch.webp" alt="clutch-icon" class="w-[14rem] pt-8" />
             </div>
+            <p class="mt-20 underline block lg:hidden">hello@cinnamon.agency</p>
           </div>
         </div>
      </div>
